@@ -1,0 +1,25 @@
+<div class="slot-machine-container">
+  <div class="exchange-rate">
+    <p>Current CAD Exchange Rate from API: {{ exchangeRate }}</p>
+  </div>
+  <div class="credits">
+    <p style="font-weight: bold; color: #fff;">Welcome to Nirav's Slot Machine</p>
+    <p class="credits-text">Credits: {{ credits }}</p>
+  </div>
+   
+  <div class="slot-machine">
+    <div class="display">
+      <div class="reels">
+        <div class="reel" *ngFor="let item of displayedItems">{{ item }}</div>
+      </div>
+    </div>
+    <div class="controls">
+      <div class="lever-container">
+        <div class="lever-handle"></div>
+        <button (mouseup)="pullLever()" class="lever cursor-pointer" [disabled]="isSpinning" [ngStyle]="{'transform': leverTransform}">Pull</button>
+      </div>
+    </div>
+  </div>
+  <div [ngStyle]="{'color': resultColor}" class="winner-animation">{{ result }}</div>
+ 
+</div>

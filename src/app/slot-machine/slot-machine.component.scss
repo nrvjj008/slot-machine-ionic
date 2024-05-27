@@ -1,0 +1,137 @@
+.slot-machine-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #222;
+    padding: 20px;
+  }
+  
+  .slot-machine {
+    background-color: #444;
+    border: 5px solid #888;
+    border-radius: 10px;
+    padding: 10px;
+    width: 380px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    height: fit-content;
+  }
+  
+  .display {
+    background-color: black;
+    border: 5px solid #666;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .reels {
+    display: flex;
+    justify-content: center;
+    overflow: hidden; /* Ensure items stay within the container */
+  }
+  
+  .reel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 100px;
+    margin: 0 10px;
+    font-size: 2rem;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: transform 0.5s ease-out;
+  }
+  
+  .controls {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .credits-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .credits {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(45deg, #ff6ec55f, #7773f56c, #0000ff63, #7773f551, #ff6ec54a);
+    background-size: 300% 300%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin-bottom: 20px;
+    animation: gradientAnimation 5s ease infinite;
+  }
+  
+  @keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .lever-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #000;
+    padding: 2px;
+    height: 80px;
+    width: 40px;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .lever-handle {
+    position: absolute;
+    background-color: orange;
+    top: 5%;
+    width: 2px;
+    height: 90%;
+  }
+  
+  .lever {
+    z-index: 10;
+    background-color: #fff;
+    border-radius: 10%;
+    width: 40px;
+    height: 20px;
+    color: black;
+    padding: 2px;
+    border: 1px solid #333;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .lever:active {
+    transform: translateY(60px);
+  }
+  
+  .winner-animation {
+    font-size: 2rem;
+    color: yellow;
+    animation: blinker 1s linear infinite;
+    margin-top: 20px;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+  
