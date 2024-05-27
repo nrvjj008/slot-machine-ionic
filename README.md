@@ -11,9 +11,9 @@ Welcome to Slot Machine Game! This project is a simple and fun slot machine game
 - **Visual Feedback**: Dynamic feedback on your win or loss with changing colors.
 
 ## Screenshots
-<img width="300" alt="Screenshot 2024-05-27 at 4 30 06 AM" src="https://github.com/nrvjj008/slot-machine-ionic/assets/11418936/4b944af8-7c5f-41f6-8575-e23ebe5a8a6f">
-<img width="300" alt="Screenshot 2024-05-27 at 4 30 24 AM" src="https://github.com/nrvjj008/slot-machine-ionic/assets/11418936/b58e34cd-3f24-4bf1-aa97-306b5d2b0131">
-<img width="300" alt="Screenshot 2024-05-27 at 4 31 13 AM" src="https://github.com/nrvjj008/slot-machine-ionic/assets/11418936/4b7e2d2b-aede-4a46-a928-02895be23bc0">
+<img width="200" alt="Screenshot 2024-05-27 at 4 30 06 AM" src="https://github.com/nrvjj008/slot-machine-ionic/assets/11418936/4b944af8-7c5f-41f6-8575-e23ebe5a8a6f">
+<img width="200" alt="Screenshot 2024-05-27 at 4 30 24 AM" src="https://github.com/nrvjj008/slot-machine-ionic/assets/11418936/b58e34cd-3f24-4bf1-aa97-306b5d2b0131">
+<img width="200" alt="Screenshot 2024-05-27 at 4 31 13 AM" src="https://github.com/nrvjj008/slot-machine-ionic/assets/11418936/4b7e2d2b-aede-4a46-a928-02895be23bc0">
 
 ## Installation
 
